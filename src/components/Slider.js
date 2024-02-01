@@ -20,22 +20,22 @@ import img7 from '../assets/images/7.jpeg';
 import img8 from '../assets/images/8.jpeg';
 import img9 from '../assets/images/9.jpeg';
 import img10 from '../assets/images/10.jpeg';
-import img11 from '../assets/images/11.jpeg';
-import img12 from '../assets/images/12.jpeg';
-import img13 from '../assets/images/13.jpeg';
-import img14 from '../assets/images/14.jpeg';
-import img15 from '../assets/images/15.jpeg';
-import img16 from '../assets/images/16.jpeg';
-import img17 from '../assets/images/17.jpeg';
-import img18 from '../assets/images/18.jpeg';
-import img19 from '../assets/images/19.jpeg';
-import img20 from '../assets/images/20.jpeg';
-import img21 from '../assets/images/21.jpeg';
-import img22 from '../assets/images/22.jpeg';
-import img23 from '../assets/images/23.jpeg';
-import img24 from '../assets/images/24.jpeg';
-import img25 from '../assets/images/25.jpeg';
-import img26 from '../assets/images/26.jpeg';
+// import img11 from '../assets/images/11.jpeg';
+// import img12 from '../assets/images/12.jpeg';
+// import img13 from '../assets/images/13.jpeg';
+// import img14 from '../assets/images/14.jpeg';
+// import img15 from '../assets/images/15.jpeg';
+// import img16 from '../assets/images/16.jpeg';
+// import img17 from '../assets/images/17.jpeg';
+// import img18 from '../assets/images/18.jpeg';
+// import img19 from '../assets/images/19.jpeg';
+// import img20 from '../assets/images/20.jpeg';
+// import img21 from '../assets/images/21.jpeg';
+// import img22 from '../assets/images/22.jpeg';
+// import img23 from '../assets/images/23.jpeg';
+// import img24 from '../assets/images/24.jpeg';
+// import img25 from '../assets/images/25.jpeg';
+// import img26 from '../assets/images/26.jpeg';
 
 const imagesArr = [
 	img1,
@@ -79,7 +79,7 @@ export default function Slider() {
 				onSwiper={(swiper) => console.log(swiper)}
 				navigation
 				pagination={{ clickable: true }}
-				// autoplay={{ delay: 1000 }}
+				autoplay={{ delay: 1500 }}
 				loop
 			>
 				{imagesArr.map((img, i) => (

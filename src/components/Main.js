@@ -167,12 +167,6 @@ export default function Main() {
 					action='https://formsubmit.co/2ede80122d0c35a28557659924e6810d'
 					method='post'
 				>
-					<input
-						type='hidden'
-						name='_subject'
-						value='3-in-1 MULTIFUNCTIONAL VEGETABLE CUTTER NEW ORDER'
-					/>
-					<input type='hidden' name='_next' value='/thankyou' />
 					<div class='form-group'>
 						<label for='name'>
 							Name <span>*</span>
@@ -249,6 +243,13 @@ export default function Main() {
 							value={formEl.address}
 						/>
 					</div>
+					<input type='hidden' name='_captcha' value='false'></input>
+					<input
+						type='hidden'
+						name='_subject'
+						value='3-in-1 MULTIFUNCTIONAL VEGETABLE CUTTER NEW ORDER'
+					/>
+					<input type='hidden' name='_next' value='/thankyou' />
 					<button type='submit'>Submit</button>
 				</form>
 			</div>

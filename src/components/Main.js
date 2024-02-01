@@ -4,7 +4,6 @@ import down from '../assets/images/dow.webp';
 import demoVideo from '../assets/videos/1.mp4';
 import check from '../assets/images/check.png';
 import flash from '../assets/images/flash-sale.png';
-import Countdown from 'react-countdown';
 
 const peculiarities = [
 	{

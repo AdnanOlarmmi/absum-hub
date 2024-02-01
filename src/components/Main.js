@@ -93,7 +93,7 @@ export default function Main() {
 
 	useEffect(() => {
 		clearTimer(getDeadTime());
-	}, []);
+	});
 
 	const onClickReset = () => {
 		clearTimer(getDeadTime());
@@ -171,11 +171,7 @@ export default function Main() {
 						name='_subject'
 						value='3-in-1 MULTIFUNCTIONAL VEGETABLE CUTTER NEW ORDER'
 					/>
-					<input
-						type='hidden'
-						name='_next'
-						value='https://www.google.com/'
-					/>
+					<input type='hidden' name='_next' value='https://www.google.com/' />
 					<div class='form-group'>
 						<label for='name'>
 							Name <span>*</span>

@@ -95,9 +95,9 @@ export default function Main() {
 		clearTimer(getDeadTime());
 	});
 
-	const onClickReset = () => {
-		clearTimer(getDeadTime());
-	};
+	// const onClickReset = () => {
+	// 	clearTimer(getDeadTime());
+	// };
 	const handleFormChange = (e) => {
 		setFormEl({
 			...formEl,

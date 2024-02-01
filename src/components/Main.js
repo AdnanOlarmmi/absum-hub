@@ -164,7 +164,7 @@ export default function Main() {
 				/>
 				<form
 					id='form'
-					action='https://formsubmit.co/39fd9c554ac1c6ba49181d5039e7f99d'
+					action='https://formsubmit.co/2ede80122d0c35a28557659924e6810d'
 					method='post'
 				>
 					<input
@@ -172,7 +172,7 @@ export default function Main() {
 						name='_subject'
 						value='3-in-1 MULTIFUNCTIONAL VEGETABLE CUTTER NEW ORDER'
 					/>
-					<input type='hidden' name='_next' value='https://www.google.com/' />
+					<input type='hidden' name='_next' value='/thankyou' />
 					<div class='form-group'>
 						<label for='name'>
 							Name <span>*</span>

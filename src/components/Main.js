@@ -93,7 +93,8 @@ export default function Main() {
 
 	useEffect(() => {
 		clearTimer(getDeadTime());
-	});
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	// const onClickReset = () => {
 	// 	clearTimer(getDeadTime());
